@@ -115,9 +115,9 @@ const observateur3 = new IntersectionObserver(entrys =>{
         if (entry.isIntersecting){
             entry.target.classList.add("show3");
         }
-        else{
-            entry.target.classList.remove("show3");
-        }
+        // else{
+        //     entry.target.classList.remove("show3");
+        // }
     })
 })
 const el_apparition=document.querySelectorAll(".apparition");
