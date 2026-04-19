@@ -100,9 +100,9 @@ const obseravateur2 = new IntersectionObserver(entrys =>{
         if (entry.isIntersecting){
             entry.target.classList.add("show2");
         }
-        else{
-            entry.target.classList.remove("show2");
-        }
+        // else{
+        //     entry.target.classList.remove("show2");
+        // }
     })
 })
 const el_droite=document.querySelectorAll(".droite");
