@@ -85,9 +85,9 @@ const observateur1= new IntersectionObserver(entrys =>{
             entry.target.classList.add("show1");
             console.log(entry.target);
         }
-        else{
-            entry.target.classList.remove("show1");
-        }
+        // else{
+        //     entry.target.classList.remove("show1");
+        // }
     })
 })
 const el_gauche=document.querySelectorAll(".gauche");
